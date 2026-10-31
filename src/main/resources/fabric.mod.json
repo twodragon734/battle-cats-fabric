@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "battle_cats",
+  "version": "${version}",
+  "name": "Battle Cats",
+  "description": "A fan-made Battle Cats inspired mod for Minecraft.",
+  "authors": ["twodragon734"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/battle_cats/icon.png",
+  "environment": "*",
+  "entrypoints": { "main": ["com.twodragon734.battlecats.BattleCatsMod"] },
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
